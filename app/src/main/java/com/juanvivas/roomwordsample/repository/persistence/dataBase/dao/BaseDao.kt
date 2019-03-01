@@ -1,4 +1,4 @@
-package com.juanvivas.roomwordsample.persistence.dataBase.dao
+package com.juanvivas.roomwordsample.repository.persistence.dataBase.dao
 
 import androidx.room.*
 

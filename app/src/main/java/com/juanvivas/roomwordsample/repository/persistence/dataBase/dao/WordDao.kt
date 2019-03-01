@@ -1,9 +1,9 @@
-package com.juanvivas.roomwordsample.persistence.dataBase.dao
+package com.juanvivas.roomwordsample.repository.persistence.dataBase.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Query
-import com.juanvivas.roomwordsample.persistence.dataBase.entity.Word
+import com.juanvivas.roomwordsample.repository.persistence.dataBase.entity.Word
 
 
 @Dao

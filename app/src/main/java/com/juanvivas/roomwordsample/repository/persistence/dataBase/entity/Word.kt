@@ -1,4 +1,4 @@
-package com.juanvivas.roomwordsample.persistence.dataBase.entity
+package com.juanvivas.roomwordsample.repository.persistence.dataBase.entity
 
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo
