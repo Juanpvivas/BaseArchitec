@@ -1,4 +1,4 @@
-package com.juanvivas.roomwordsample.repository.persistence.dataBase.dao
+package com.juanvivas.roomwordsample.repository.persistence.database.dao
 
 import androidx.room.*
 
@@ -6,6 +6,9 @@ import androidx.room.*
 interface BaseDao<T> {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(obj: T)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insert(obj: List<T>)
 
     @Update
     fun update(obj: T)
